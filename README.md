@@ -1,6 +1,6 @@
-# World time app
+# World time app in react+redux.
 
-Try tick-tak
+Very & very simple app.
 
 ## Getting Started
 
