@@ -11,9 +11,7 @@ export default class ClocksDescription extends Component {
                 {country.map((elem, i) =>
                     <li key={i}>{elem}</li>
                 )}
-                </ul>
-                
-
+                </ul> 
             </div>
         )
     }
