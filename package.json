@@ -23,7 +23,9 @@
     "tsify": "^3.0.1",
     "typescript": "^2.4.1",
     "vinyl-source-stream": "^1.1.0",
-    "redux-devtools": "^3.4.0"
+    "redux-devtools": "^3.4.0",
+    "browser-sync": "^2.18.12",
+    "browserify": "^14.4.0"
   },
   "dependencies": {
     "react": "^15.6.1",
