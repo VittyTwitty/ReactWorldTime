@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
+li {
+  list-style: none; }
+
+body {
+  background-color: #D8FFC3; }
+
+.clocks {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #365B6F; }
+  .clocks div {
+    min-width: 200px; }
+    .clocks div ul {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .clocks div ul li {
+        height: 50px;
+        line-height: 50px; }
+  .clocks div:first-child {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+    color: #000B5F; }

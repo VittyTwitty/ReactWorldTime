@@ -31,12 +31,12 @@ let gulp = require('gulp'),
 // Создание таска common.js
 gulp.task('scripts-js', function () { 
     return browserify({
-            entries: 'app/js/app.jsx',
+            entries: ['app/js/app.jsx', 'app/js/index.jsx'],
             extensions: ['.jsx'],
             debug: true
         })
         .transform('babelify', {
-            presets: ['es2015'],
+            presets: ["es2015", "react"],
             plugins: ['transform-class-properties']
         })
         .bundle()        

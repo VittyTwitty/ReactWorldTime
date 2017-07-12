@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+li {
+    list-style: none;
+}
+
+body {
+    background-color: #D8FFC3;
+}
+.clocks{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    color: #365B6F;
+    div{
+        min-width: 200px;
+        ul{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            li {
+                height: 50px;
+                line-height: 50px;
+            }
+        }
+
+    }
+    div:first-child {        
+        font-family: 'Press Start 2P', cursive;
+        font-size: 30px;
+        color: #000B5F;
+    }
+}
+
+
